@@ -23,7 +23,7 @@ public enum Color {
         this.colorIndex = colorIndex;
     }
 
-    Color(String colorName, int index) {
+    Color(String colorName, int colorIndex) {
         this.colorName = colorName;
         this.colorIndex = colorIndex;
     }
