@@ -16,7 +16,7 @@ public class ColorBox extends Box {
     }
 
     public void setColorBox(Color color) {
-        if (!color.equals("")) {
+        if (!color.equals(null)) {
             this.color = color;
         } else messageIncorrectExit();
     }
