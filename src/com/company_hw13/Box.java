@@ -53,7 +53,7 @@ public class Box {
     }
 
     public void setMaterial(Material material) {
-        if (!material.equals("")) {
+        if (!material.equals(null)) {
             this.material = material;
         } else messageIncorrectExit();
     }
